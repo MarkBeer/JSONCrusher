@@ -1,0 +1,98 @@
+{
+  "formType": "123",
+  "businessInformation": {
+    "spid": {
+      "number": "123456789"
+    },
+    "businessDetails": {
+      "name": "Lorem",
+      "address": "Lorem",
+      "businessDetailsType": {
+        "code": "xxx",
+        "value": "Other"
+      },
+      "typeOther": "Cheese making",
+      "functions": "Lorem",
+      "hasLivestock": true,
+      "livestockDetails": "Moos",
+      "altWaterSourceOptions": [
+        {
+          "code": "010",
+          "value": "Borehole"
+        },
+        {
+          "code": "020",
+          "value": "Stream / River"
+        },
+        {
+          "code": "900",
+          "value": "Other"
+        }
+      ],
+      "altWaterSourceOtherValue": "Volcano",
+      "isThreadToLife": true,
+      "threadToLifeDetails": "Lorem",
+      "hasDomesticDwelling": true,
+      "domesticDwellingDetails": "Lorem",
+      "numStaff": "7"
+    }
+  },
+  "operatingHours": {
+    "openingHours": {
+      "monday": "09:00,18:00",
+      "tuesday": "09:00,18:00",
+      "wednesday": "09:00,18:00",
+      "thursday": "09:00,18:00",
+      "friday": "09:00,18:00",
+      "saturday": "09:00,18:00",
+      "sunday": "00:00,00:00"
+    }
+  },
+  "incidentContactDetails": {
+    "contactDetails": {
+      "name": "John Doe",
+      "mobile": "0987654321",
+      "landline": "0123456789",
+      "email": "john.doe@gmail.com",
+      "website": "johndoe.com",
+      "onsiteFacilities": [
+        {
+          "code": "010",
+          "value": "Shower / Washing"
+        },
+        {
+          "code": "020",
+          "value": "Kitchen / Canteen"
+        }
+      ]
+    }
+  },
+  "usageStorageContingency": {
+    "USCDetails": {
+      "averageDailyConsumption": "5",
+      "numMeters": "2",
+      "hasWaterStorage": true,
+      "waterStorageCapacity": "120",
+      "waterStorageFillTime": {
+        "code": "1-3",
+        "value": "1 to 3 hours"
+      },
+      "waterStorageLocation": "Lorem",
+      "isWaterStoragePotable": false,
+      "contingency": "3 days"
+    }
+  },
+  "proactiveMessaging": {
+    "proactiveMessagingDetails": {
+      "mobile": "087654321",
+      "landline": "0123456789",
+      "additionalInfo": "Lorem"
+    }
+  },
+  "consent": {
+    "consentDetails": {
+      "storeData": true,
+      "receiveContact": true
+    }
+  }
+}
