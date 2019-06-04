@@ -55,6 +55,19 @@ public class JSONCrusherTest {
 
     }
 
+    @Test
+    public void testCrushJackson() throws IOException {
+
+        String json = getResource("/srss.json");
+        String expResult = getResource("/crushed.json");
+
+        String result = JsonCrusherFasterXMLJackson.crush(json);
+
+        System.out.println(result);
+        assertEquals(expResult, result);
+
+    }
+
     private String getResource(String resourceName) throws IOException {
         return IOUtils.toString(
                 this.getClass().getResourceAsStream(resourceName),
